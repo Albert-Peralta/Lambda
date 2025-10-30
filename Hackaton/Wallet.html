@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lambda | Wallet</title>
+  <link rel="stylesheet" href="Estilos/wallet.css">
+  <script src="https://kit.fontawesome.com/a2d5b6b1f1.js" crossorigin="anonymous"></script>
+</head>
+<body class="home-body">
+
+  <!-- HEADER -->
+  <header class="home-header">
+    <h1>Wallet</h1>
+    <button class="settings-btn"><i class="fas fa-cog"></i></button>
+  </header>
+
+  <!-- WALLET SECTION -->
+  <section class="wallet-section">
+    <h2>Saldo total:</h2>
+
+    <div class="wallet-list" id="walletList">
+      <div class="wallet-card">
+        <h3>Pesos mexicanos:</h3>
+        <p>$723.80</p>
+      </div>
+      <div class="wallet-card">
+        <h3>Ajolote:</h3>
+        <p>3 tokens</p>
+      </div>
+      <div class="wallet-card">
+        <h3>Jaguar:</h3>
+        <p>1 token</p>
+      </div>
+      <div class="wallet-card">
+        <h3>Mariposa Monarca:</h3>
+        <p>6 tokens</p>
+      </div>
+      <div class="wallet-card">
+        <h3>Águila:</h3>
+        <p>1 token</p>
+      </div>
+    </div>
+
+    <button id="btnActualizarWallet" class="add-history-btn">
+      <i class="fas fa-sync-alt"></i> Actualizar saldos
+    </button>
+  </section>
+
+  <!-- FOOTER MENU -->
+  <nav class="bottom-nav">
+    <a href="home.html" class="nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
+    <a href="#" class="nav-item"><i class="fas fa-map-marker-alt"></i><span>GPS</span></a>
+    <a href="historial.html" class="nav-item"><i class="fas fa-clipboard-list"></i><span>Historial</span></a>
+    <a href="wallet.html" class="nav-item active"><i class="fas fa-wallet"></i><span>Wallet</span></a>
+  </nav>
+
+  <script src="Scripts/app4.js"></script>
+</body>
+</html>
